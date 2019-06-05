@@ -24,7 +24,7 @@ namespace ClientManagementSystem
         public string Postal_Code { get; set; }
         public string Email { get; set; }
         public string Comments { get; set; }
-        public Nullable<bool> Owed_money { get; set; }
+        public bool Owed_money { get; set; }
         public string Domain { get; set; }
         public string Gender { get; set; }
         public bool Status { get; set; }
